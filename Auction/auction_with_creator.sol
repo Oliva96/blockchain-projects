@@ -82,7 +82,7 @@ contract Auction{
     }
 
     // only the owner can ended the Auction
-    function cancelAuction() public onlyOwner{
+    function endedAuction() public onlyOwner{
         auctionState = State.Ended;
     }
     
